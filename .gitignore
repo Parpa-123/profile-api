@@ -1,0 +1,84 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Django ----
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+.env
+.env.*
+*.env
+
+# ---- Virtual Environment ----
+venv/
+env/
+ENV/
+.venv/
+.env.bak/
+Scripts/
+pip-wheel-metadata/
+pip-log.txt
+
+# ---- IDE & Editor Files ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS-specific ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Test & Coverage ----
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ---- Build & Distribution ----
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Docker (if applicable) ----
+docker-compose.override.yml
+*.pid
+*.seed
+*.bak
+
+# ---- Misc ----
+*.bak
+*.old
+*.orig
