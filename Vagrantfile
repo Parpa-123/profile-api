@@ -1,9 +1,10 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/focal64"
-  config.vm.box_version = "~> 20210929.0.0"  # Optional: use latest stable version
+  config.vm.box_version = "~> 20210929.0.0"
   config.vm.boot_timeout = 600
 
-  config.vm.network "forwarded_port", guest: 8000, host: 8000
+  # Change forwarded port to 5173
+  config.vm.network "forwarded_port", guest: 5173, host: 5173
 
   config.vm.provision "shell", inline: <<-SHELL
     sudo apt-get update
